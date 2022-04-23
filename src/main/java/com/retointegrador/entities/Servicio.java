@@ -7,6 +7,7 @@ import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 @Setter
@@ -15,7 +16,6 @@ import java.util.Collection;
 @NoArgsConstructor
 @Document(value="servicios")
 public class Servicio {
-
     @Id
     private String codigo;
     private String nombre;
@@ -24,5 +24,6 @@ public class Servicio {
     public Servicio(String codigo, String nombre){
         this.codigo = codigo;
         this.nombre = nombre;
+        this.canales = new ArrayList<Canal>();
     }
 }

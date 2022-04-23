@@ -15,32 +15,22 @@ public class ServicioHandler {
     @Autowired
     private NePagoServicios nePagoServiciosImpl;
 
-    public Mono<ServerResponse> listarServiciosPorCanal(ServerRequest request){
-
-        var canal = request.pathVariable("canal");
+    public Mono<ServerResponse> listarServicios(ServerRequest request){
         return ServerResponse.ok()
                 .contentType(MediaType.APPLICATION_JSON)
-                .body (this.nePagoServiciosImpl.listarServiciosPorCanal(canal), Servicio.class);
+                .body (this.nePagoServiciosImpl.listarServicios(), Servicio.class);
+    }
+    public Mono<ServerResponse>listarServiciosPorCodigo(ServerRequest request){
+
+        var codigo = request.pathVariable("servicio");
+        return ServerResponse.ok()
+                .contentType(MediaType.APPLICATION_JSON)
+                .body (this.nePagoServiciosImpl.listarServiciosPorCodigo(codigo), Servicio.class);
     }
     public Mono<ServerResponse> registrarServicio(ServerRequest request){
-
-        //var servicio= request.bodyToMono(Servicio.class);
-
         return request.bodyToMono(Servicio.class)
                 .flatMap(servicio->this.nePagoServiciosImpl.registrarServicio(servicio))
                 .flatMap(servicio->ServerResponse.ok().body(Mono.just(servicio), Servicio.class));
-
-        /*
-        var codigo = request.pathVariable("codigo");
-        var nombre = request.pathVariable("nombre");
-        new Servicio(codigo, nombre)
-*/
-
-/*
-        return ServerResponse.ok()
-                .contentType(MediaType.APPLICATION_JSON)
-                .body (this.nePagoServiciosImpl.registrarServicio(servicio), Servicio.class);
-        */
     }
 
 }
