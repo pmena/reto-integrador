@@ -2,6 +2,7 @@ package com.retointegrador.routes;
 
 import com.retointegrador.handlers.FavoritoHandler;
 import com.retointegrador.handlers.ServicioHandler;
+import com.retointegrador.handlers.ServicioUxHandler;
 import com.retointegrador.handlers.TransaccionHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -38,6 +39,17 @@ public class RouterConfiguration {
         return RouterFunctions.nest(RequestPredicates.path("/favoritos"),
                 RouterFunctions
                         .route(POST("/registrar").and(accept(MediaType.APPLICATION_JSON)), favoritoHandler::registrar)
+
+        );
+    }
+
+    @Bean
+    public RouterFunction<ServerResponse> servicioUxRoutes(ServicioUxHandler servicioUxHandler){
+        return RouterFunctions.nest(RequestPredicates.path("/serviciosux"),
+                RouterFunctions
+                        .route(GET("/listar").and(accept(MediaType.APPLICATION_JSON)), servicioUxHandler::listarServicios)
+                        .andRoute(GET("/listar/{canal}").and(accept(MediaType.APPLICATION_JSON)), servicioUxHandler::listarServicioPorCanal)
+
 
         );
     }
