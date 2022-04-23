@@ -49,8 +49,9 @@ public class RouterConfiguration {
                 RouterFunctions
                         .route(GET("/listar").and(accept(MediaType.APPLICATION_JSON)), servicioUxHandler::listarServicios)
                         .andRoute(GET("/listar/{canal}").and(accept(MediaType.APPLICATION_JSON)), servicioUxHandler::listarServicioPorCanal)
-
-
+                        .andRoute(POST("/pagar/").and(accept(MediaType.APPLICATION_JSON)), servicioUxHandler::pagar)
         );
     }
+
+
 }

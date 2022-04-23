@@ -20,6 +20,12 @@ public class Favorito {
     private String nombre;
     private String tipo;
     private Servicio servicio;
-    //private Canal canal;
-    //private String suministro;
+
+    private String origen = "API Negocio";
+
+    public Favorito(String nombre, String tipo, Servicio servicio) {
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.servicio = servicio;
+    }
 }

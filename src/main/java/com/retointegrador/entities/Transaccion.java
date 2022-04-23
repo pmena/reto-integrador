@@ -1,5 +1,6 @@
 package com.retointegrador.entities;
 
+import com.retointegrador.repositories.FavoritoUxRepository;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -24,5 +25,7 @@ public class Transaccion {
     private Double monto;
     private String moneda;
     private Date fecha;
+    private Favorito favorito;
+    private String origen ="API negocio";
 
 }

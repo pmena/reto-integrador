@@ -1,6 +1,7 @@
 package com.retointegrador.handlers;
 
 import com.retointegrador.entities.Servicio;
+import com.retointegrador.entities.Transaccion;
 import com.retointegrador.services.UxPagos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -27,4 +28,9 @@ public class ServicioUxHandler {
                 .body (this.uxPagos.listarServicios(), Servicio.class);
     }
 
+    public Mono<ServerResponse> pagar(ServerRequest request){
+        return request.bodyToMono(Transaccion.class)
+                .flatMap(transaccion -> this.uxPagos.pagar(transaccion))
+                .flatMap(transaccion -> ServerResponse.ok().body(Mono.just(transaccion), Transaccion.class));
+    }
 }

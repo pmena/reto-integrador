@@ -7,6 +7,7 @@ import com.retointegrador.entities.Transaccion;
 import com.retointegrador.repositories.ServicioUxRepository;
 import org.springframework.beans.factory.annotation.Value;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.client.reactive.ReactorClientHttpConnector;
@@ -61,21 +62,4 @@ public class ServicioUxRepositoryImpl implements ServicioUxRepository {
                 .bodyToFlux(Servicio.class);
     }
 
-    @Override
-    public Mono<Transaccion> pagar(Transaccion transaccion) {
-
-        return this.client.get().uri("/pagar/")
-                .accept(MediaType.APPLICATION_JSON)
-                .retrieve()
-                .bodyToMono(Transaccion.class);
-
-        /*
-        return this.client.get().uri("/listar/").accept(MediaType.APPLICATION_JSON)
-                .retrieve()
-                .bodyToFlux(Servicio.class);
-        */
-
-        //Mono<Transaccion> pagar(Transaccion transaccion);
-
-    }
 }
