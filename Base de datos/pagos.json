@@ -1,0 +1,682 @@
+[{
+  "_id": "",
+  "servicio": {
+    "codigo": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 276.15,
+  "moneda": "PEN",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62638e66bf227213eb4e6b8f"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 276.15,
+  "moneda": "PEN",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62638e69bf227213eb4e6b90"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 276.15,
+  "moneda": "PEN",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "626391d7134f2b1bb733bdcf"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 276.15,
+  "moneda": "PEN",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "6264540efba2a27386c184bb"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 276.15,
+  "moneda": "PEN",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62645431fba2a27386c184bc"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "626455c7fba2a27386c184bd"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62645a3bfba2a27386c184be"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62645bb4126c7158307d7f2f"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    }
+  },
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62645c8cb6c0b73fedd7d8f7"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    }
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62645d700438bd717697de2a"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62645daa634689430c3ec132"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62645ea45841b454fc816cb8"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "626462b5ddc442405366f8dc"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "6264634c480dd434932377df"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62646375480dd434932377e0"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62646399480dd434932377e1"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "626463d9480dd434932377e2"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "6264646149b48433de4a3404"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "626464f8e7f6366b5ced1969"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62646526e7f6366b5ced196c"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "6264655aa9c2e111bcbdd3a2"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62646654a9c2e111bcbdd3a4"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62646680a9c2e111bcbdd3a5"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 276.15,
+  "moneda": "PEN",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "origen": "API negocio",
+  "_class": "com.retointegrador.entities.Transaccion"
+},{
+  "_id": {
+    "$oid": "62646687a9c2e111bcbdd3a8"
+  },
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "canal": {
+    "_id": "BI",
+    "nombre": "Banca por internet"
+  },
+  "suministro": "AAAA-EEEE-UUUU1234",
+  "monto": 80.15,
+  "moneda": "USD",
+  "fecha": {
+    "$date": {
+      "$numberLong": "1650620700000"
+    }
+  },
+  "favorito": {
+    "nombre": "Pago de luz mensual",
+    "tipo": "Servicios básicos",
+    "servicio": {
+      "_id": "ENEL",
+      "nombre": "Servicio de luz"
+    },
+    "origen": "API UX"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Transaccion"
+}]

@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "626394b3a620a8350ed01d5b"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz",
+    "canales": [
+      {
+        "_id": "BM",
+        "nombre": "Banca Móvil"
+      }
+    ]
+  },
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "6263950fa620a8350ed01d5c"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz",
+    "canales": [
+      {
+        "_id": "BM",
+        "nombre": "Banca Móvil"
+      }
+    ]
+  },
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "62645ec99fe5d66dae9bd32a"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "626464a2a84fd474223cb515"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "626464f8e7f6366b5ced1968"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "62646519e7f6366b5ced196a"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz",
+    "canales": [
+      {
+        "_id": "BM",
+        "nombre": "Banca Móvil"
+      }
+    ]
+  },
+  "origen": "API Negocio",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "62646526e7f6366b5ced196b"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "6264655aa9c2e111bcbdd3a1"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "62646654a9c2e111bcbdd3a3"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "62646683a9c2e111bcbdd3a6"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz",
+    "canales": [
+      {
+        "_id": "BM",
+        "nombre": "Banca Móvil"
+      }
+    ]
+  },
+  "origen": "API Negocio",
+  "_class": "com.retointegrador.entities.Favorito"
+},{
+  "_id": {
+    "$oid": "62646687a9c2e111bcbdd3a7"
+  },
+  "nombre": "Pago de luz mensual",
+  "tipo": "Servicios básicos",
+  "servicio": {
+    "_id": "ENEL",
+    "nombre": "Servicio de luz"
+  },
+  "origen": "API UX",
+  "_class": "com.retointegrador.entities.Favorito"
+}]

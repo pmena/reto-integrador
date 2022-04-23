@@ -1,0 +1,57 @@
+[{
+  "_id": "ENEL",
+  "nombre": "Servicio de luz",
+  "canales": [
+    {
+      "_id": "BM",
+      "nombre": "Banca Móvil"
+    },
+    {
+      "_id": "BI",
+      "nombre": "Banca por internet"
+    }
+  ],
+  "_class": "com.retointegrador.entities.Servicio"
+},{
+  "_id": "SEDAPAL",
+  "nombre": "Servicio de agua",
+  "canales": [
+    {
+      "_id": "BM",
+      "nombre": "Banca Móvil"
+    },
+    {
+      "_id": "BI",
+      "nombre": "Banca por internet"
+    }
+  ],
+  "_class": "com.retointegrador.entities.Servicio"
+},{
+  "_id": "CLARO",
+  "nombre": "Servicio de telefonía",
+  "canales": [
+    {
+      "_id": "BM",
+      "nombre": "Banca Móvil"
+    },
+    {
+      "_id": "BI",
+      "nombre": "Banca por internet"
+    }
+  ],
+  "_class": "com.retointegrador.entities.Servicio"
+},{
+  "_id": "CALIDDA",
+  "nombre": "Servicio de gas natural",
+  "canales": [
+    {
+      "_id": "BM",
+      "nombre": "Banca Móvil"
+    },
+    {
+      "_id": "BI",
+      "nombre": "Banca por internet"
+    }
+  ],
+  "_class": "com.retointegrador.entities.Servicio"
+}]
