@@ -1,0 +1,337 @@
+{
+	"info": {
+		"_postman_id": "64438c2a-1d3c-4d66-98ae-50611b2ddab5",
+		"name": "Reto integrador",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API Pago servicios",
+			"item": [
+				{
+					"name": "listar servicios por código",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/servicios/listar/ENEL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"servicios",
+								"listar",
+								"ENEL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listar servicios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/servicios/listar/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"servicios",
+								"listar",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "registrar Servicio ENEL",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"ENEL\",\r\n    \"nombre\": \"Servicio de luz\",\r\n    \"canales\":[\r\n        {\r\n            \"codigo\":\"BM\",\r\n            \"nombre\":\"Banca Móvil\"           \r\n        },\r\n        {\r\n            \"codigo\":\"BI\",\r\n            \"nombre\":\"Banca por internet\"           \r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/servicios/registrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"servicios",
+								"registrar"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "\"ENEL\"",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "registrar Servicio SEDAPAL",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"SEDAPAL\",\r\n    \"nombre\": \"Servicio de agua\",\r\n    \"canales\":[\r\n        {\r\n            \"codigo\":\"BM\",\r\n            \"nombre\":\"Banca Móvil\"           \r\n        },\r\n        {\r\n            \"codigo\":\"BI\",\r\n            \"nombre\":\"Banca por internet\"           \r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/servicios/registrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"servicios",
+								"registrar"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "\"ENEL\"",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "registrar Servicio CLARO",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"CLARO\",\r\n    \"nombre\": \"Servicio de telefonía\",\r\n    \"canales\":[\r\n        {\r\n            \"codigo\":\"BM\",\r\n            \"nombre\":\"Banca Móvil\"           \r\n        },\r\n        {\r\n            \"codigo\":\"BI\",\r\n            \"nombre\":\"Banca por internet\"           \r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/servicios/registrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"servicios",
+								"registrar"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "\"ENEL\"",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "registrar Servicio CALIDDA",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"codigo\": \"CALIDDA\",\r\n    \"nombre\": \"Servicio de gas natural\",\r\n    \"canales\":[\r\n        {\r\n            \"codigo\":\"BM\",\r\n            \"nombre\":\"Banca Móvil\"           \r\n        },\r\n        {\r\n            \"codigo\":\"BI\",\r\n            \"nombre\":\"Banca por internet\"           \r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/servicios/registrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"servicios",
+								"registrar"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "\"ENEL\"",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pagar servicio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"servicio\":{\r\n        \"codigo\":\"ENEL\",\r\n        \"nombre\":\"Servicio de luz\"        \r\n    },\r\n    \"canal\":{\r\n        \"codigo\": \"BI\",\r\n        \"nombre\": \"Banca por internet\"\r\n    },\r\n    \"suministro\":\"AAAA-EEEE-UUUU1234\",\r\n    \"monto\":276.15,\r\n    \"moneda\":\"PEN\",\r\n    \"fecha\":\"2022-04-22T09:45:00.000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/transacciones/pagar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"transacciones",
+								"pagar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Registrar favorito",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"Pago de luz mensual\",\r\n    \"tipo\":\"Servicios básicos\",\r\n    \"servicio\":{\r\n        \"codigo\": \"ENEL\",\r\n        \"nombre\": \"Servicio de luz\",\r\n         \"canales\": [\r\n            {\r\n                \"codigo\": \"BM\",\r\n                \"nombre\": \"Banca Móvil\"\r\n            }            \r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/favoritos/registrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"favoritos",
+								"registrar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listar Servicios API UX",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/serviciosux/listar/BI",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"serviciosux",
+								"listar",
+								"BI"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pagar Servicios API UX",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"servicio\":{\r\n        \"codigo\":\"ENEL\",\r\n        \"nombre\":\"Servicio de luz\"        \r\n    },\r\n    \"canal\":{\r\n        \"codigo\": \"BI\",\r\n        \"nombre\": \"Banca por internet\"\r\n    },\r\n    \"suministro\":\"AAAA-EEEE-UUUU1234\",\r\n    \"monto\":276.15,\r\n    \"moneda\":\"PEN\",\r\n    \"fecha\":\"2022-04-22T09:45:00.000\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/serviciosux/pagar/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"serviciosux",
+								"pagar",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
